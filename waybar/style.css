@@ -1,0 +1,41 @@
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 13px;
+  color: #c5a047;
+}
+
+#hyprland-window,
+#mpris,
+#tray,
+#cpu,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#idle_inhibitor,
+#custom-weather,
+#backlight,
+#clock,
+#memory,
+#disk,
+#custom-updatespacman,
+#custom-screenrecording-indicator,
+#custom-update,
+#power-profiles-daemon,
+#workspaces,
+#custom{
+  min-width: 14px;
+  margin: 0 6px;
+}
+
+#pulseaudio {
+  padding-right : 2px;
+}
+
+#power-profiles-daemon {
+    padding: 1px;
+    
+}
